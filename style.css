@@ -35,7 +35,7 @@
     padding-top: 5%;
     padding-left: 20%;
     padding-right: 20%;
-    padding-bottom: 10%;
+    padding-bottom: 7%;
     display: flex;
     justify-content: space-around;
     
@@ -92,3 +92,75 @@
     align-items: center;
 }
 
+.info {
+    padding-bottom: 7%;
+}
+
+.infoHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoHeader p {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.imgPlc {
+    flex: 1 1 0;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+.subtext {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.subtext p {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteBox {
+    background-color: #E5E7EB;
+    padding-left: 28%;
+    padding-right: 28%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.quoteBox .quoteStyle {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.signature {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
+}
